@@ -6,6 +6,7 @@ Redis Autocomplete Engine is a lightweight, high-performance autocomplete system
 
 The project uses a plain `words.txt` file as its persistent dictionary and automatically indexes all words into Redis on startup. Any new word added through the application is immediately written to both Redis and `words.txt`, ensuring fast searches and persistence across restarts.
 
+### this setup can also be upgraded by using Popularity Scoring and degradation techiniques
 ---
 
 # System Architecture
